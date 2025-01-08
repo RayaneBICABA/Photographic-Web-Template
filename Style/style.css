@@ -682,6 +682,10 @@ figcaption{
     text-align: left;
   }
 
+  .comment2 p{
+    margin-bottom: 5vh;
+  }
+
   .comment1{
     display: flex;
     flex-direction: column-reverse;
@@ -695,6 +699,8 @@ figcaption{
   /*===============Sith WebPage Section===============*/
   .aboutSection{
     height: auto;
+    padding: initial;
+    padding-left: 2vh;
   }
 
   .aboutSection h1{
@@ -704,12 +710,24 @@ figcaption{
   .aboutInfo{
     display: block;
     width: 125%;
-    border: solid 2px blue;
+  }
+
+  .aboutInfo img{
+    height: 30vh;
+    padding-left: 15%;
+    margin-top: 5vh;
   }
 
   .txtAboutInfo{
     width: 100%;
-    border: solid 2px white;
+  }
+
+  .txtAboutInfo h2{
+    font-size: 2em;
+  }
+
+  .txtAboutInfo p{
+    width: 75%;
   }
 
   .principles{
