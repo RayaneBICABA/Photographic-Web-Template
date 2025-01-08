@@ -89,7 +89,7 @@ body{
 .left h1{
   font-family: "Kalnia", sans-serif; 
   color: white;
-  font-size: 4.5em;
+  font-size: 8em;
   font-weight: bold;
   overflow-y: hidden;
 }
@@ -97,7 +97,7 @@ body{
 .left p{
   font-family: 'Inter',sans-serif;
   color: white;
-  font-size: 1.7em;
+  font-size: 2.5em;
   overflow-y: hidden;
   margin-top: 4vh;
 }
@@ -106,7 +106,7 @@ body{
   background-color: rgba(255, 255, 255, 0.26);
   color: white;
   width: 32%;
-  height: 7%;
+  height: 8%;
   border-radius: 50px;
   font-size: 2em;
   outline: none;
@@ -287,7 +287,7 @@ model-viewer {
 
 /*===============Fifth WebPage Section===============*/
 .commentSection{
-  height: 100vh;
+  height: auto;
   background-color: black;
   padding-left: 10vh;
   padding-right: 10vh;
@@ -320,13 +320,13 @@ figure img{
 figcaption{
   color: #006FFF;
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 2.5em;
 }
 
 .txtComment{
   color: white;
   width: 45%;
-  font-size: 1.3em;
+  font-size: 2em;
 }
 
 
@@ -367,11 +367,11 @@ figcaption{
 .txtAboutInfo h2{
   margin-bottom: 2vh;
   font-family: "Artifika", sans-serif;
-  font-size: 1.7em;
+  font-size: 3em;
 }
 
 .txtAboutInfo p{
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 
@@ -398,7 +398,7 @@ figcaption{
 
 .principle0 h2{
   color: white;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family:  "Artifika", sans-serif;
 }
 
@@ -443,7 +443,7 @@ figcaption{
 
 .footer0 h2{
   color: white;
-  font-size: 2em;
+  font-size: 3.5em;
   font-family: "Kalnia", sans-serif;
 }
 
@@ -467,7 +467,7 @@ figcaption{
 
 .footer1 a{
   color: white;
-  font-size: 1.5em;
+  font-size: 2.5em;
   text-align: left;
   text-decoration: none;
 }
@@ -476,7 +476,7 @@ figcaption{
 .footer2 h2{
   padding: 4vh;
   color: white;
-  font-size: 2em;
+  font-size: 3em;
   font-family: "Artifika", sans-serif;
   text-align: center;
 }
@@ -494,4 +494,203 @@ figcaption{
   justify-content: center;
   justify-content: space-evenly;
   padding: 1vh;
+  height: 10vh;
+}
+
+.footer3 img{
+  height: 95%;
+}
+
+
+
+
+/*===============Web Site Responsive Section===============*/
+@media (min-width: 393px) and (max-width:720px) {
+  /*=================First WebPage Section=================*/
+  /* Presentation section */
+  .presentation{
+    display: block;
+    height: auto;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+  }
+
+  .left h1{
+    font-size: 3.3em;
+  }
+
+  .left p{
+    font-size: 1em;
+  }
+
+  .left button{
+    height: 5vh;
+    width: 40%;
+    font-size: 200%;
+  }
+
+  .right{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vh;
+  }
+
+  .img1{
+   display: none;
+  }
+  
+  .img0{
+    height: 40vh;
+    z-index: 0;
+  }
+  
+  .img2{
+    display: none;
+  }
+
+  /*======================Second WebPage Section======================*/
+  .gallery{
+    height: auto;
+  }
+
+  .horizontalBar{
+    display: none;
+  }
+
+  .galleryTitle h1{
+    font-size: 2em;
+  }
+  
+  .galleryImages{
+    height: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .EagleImg{
+    height: 75%;
+    width: 80%;
+  }
+
+  .elephantImg,
+  .zebraImg,
+  .dauphinImg,
+  .tigerImg{
+    display: none;
+  }
+
+  /*===============Third WebPage Section===============*/
+  .services{
+    height: auto;
+  }
+
+  .services h1{
+    font-size: 2em;
+    margin-top: 2vh;
+    position: static;
+  }
+
+  model-viewer{
+    height: 25vh;
+    width: 25vh;
+    margin-top: 2vh;
+  }
+
+  .buble0,
+  .buble1,
+  .buble2{
+    font-size: 1em;
+    height: 8vh;
+    width: 20vh;
+    position: static;
+    margin-top: 2vh;
+  }
+  .buble0{
+    z-index: 1;
+    position: relative;
+    left: -25%;
+    top: 0vh;
+  }
+
+  .buble1{
+    z-index: 1;
+    position: relative;
+    left: 23%;
+    top: 0vh;
+  }
+  
+  .buble2{
+    z-index: 1;
+    position: relative;
+    left: -25%;
+    top: 0vh;
+    margin-bottom: 2vh;
+  }
+
+  /*===============Fourth WebPage Section===============*/
+  .specificServices{
+    height: auto;
+  }
+
+  .photoEditing,
+  .videoEditing{
+    display: none;
+  }
+
+  .servicesImg img{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 60%;
+    width: 80%;
+  };
+
+  /*===============Fifth WebPage Section===============*/
+  .commentSection{
+    height: auto;
+    padding: initial;
+    gap: 0vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .comment0,
+  .comment1,
+  .comment2{
+    display: block;
+    gap:0;
+    width:125%;
+    position: relative;
+    right: 15%;
+  }
+
+  figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .comment0 p,
+  .comment1 p,
+  .comment2 p{
+    margin-top: 5vh;
+    font-size: 1.5em;
+    text-align: left;
+  }
+
+  .comment1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .txtComment{
+    font-size: 1em;
+    width: 100%;
+  }
 }
