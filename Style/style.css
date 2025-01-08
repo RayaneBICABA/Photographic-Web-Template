@@ -354,9 +354,7 @@ figcaption{
   height: 60%;
 }
 
-.txtAboutInfo{
-  width: 60%;
-}
+
 
 .txtAboutInfo p,
 .txtAboutInfo h2{
@@ -692,5 +690,30 @@ figcaption{
   .txtComment{
     font-size: 1em;
     width: 100%;
+  }
+
+  /*===============Sith WebPage Section===============*/
+  .aboutSection{
+    height: auto;
+    background-color: red;
+  }
+
+  .aboutSection h1{
+    font-size: 2em;
+  }
+
+  .aboutInfo{
+    display: block;
+    width: 125%;
+    border: solid 2px blue;
+  }
+
+  .txtAboutInfo{
+    width: 100%;
+    border: solid 2px white;
+  }
+
+  .principles{
+    display: none;
   }
 }
