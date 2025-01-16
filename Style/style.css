@@ -503,7 +503,7 @@ figcaption{
 
 
 /*===============Web Site Responsive Section===============*/
-@media (min-width: 393px) and (max-width:720px) {
+@media (min-width: 392px) and (max-width:720px) {
   /*=================First WebPage Section=================*/
   /* Presentation section */
   .presentation{
@@ -732,5 +732,47 @@ figcaption{
 
   .principles{
     display: none;
+  }
+
+
+  /*===============Footer WebPage Section===============*/
+  .footerSection{
+    height: auto;
+  }
+
+  .footer0{
+   flex-direction: column;
+  }
+
+  .footer0 h2{
+    font-size: 2em;
+  }
+
+  .footer1{
+    flex-direction: column;
+    gap: 0vh;
+    height: auto;
+  }
+
+  .f1Right,
+  .f1Left{
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .footer2 h2{
+    padding: 4vh;
+    font-size: 2em;
+  }
+
+  .footer3{
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer3 img{
+    height: 80%;
   }
 }
